@@ -9,13 +9,16 @@ html{
 .logo{
     width: 12vh;
     height: 10vh;
-    box-shadow: 2px 2px 4px #fff ;
+    margin-top:1rem;    
+    box-shadow: 2px 2px 4px rgb(15, 15, 15) ;
 }
 
 nav{
     width: 100%;
     position: fixed;
+    
 }
+
 
 .btn{
     background:#F0F2F0;  
@@ -29,21 +32,21 @@ nav{
     cursor: pointer;
 }
 .topMenu{
+    height: 7.5rem;
     display: flex;
-    background-color: #7a7a88; 
+    background-color: #bdbcbc; 
    
 }
 .topMenu a{
     text-decoration: none;
 }
 
-.topMenu li{
-    color: #fff;    
+.topMenu li{    
+    color: rgb(0, 0, 0) ;   
     text-decoration: none;
     display: block;
-    padding: 15px;
-    
-  text-shadow: 2px 2px 4px #000000;
+    padding: 15px;    
+    text-shadow: 2px 2px 4px #0f0f0f;
 }  
 
 .topMenu a:first-child{
@@ -52,10 +55,8 @@ nav{
 }
 .section1{
     display:flex ;
-    height: 50vh;
-    
-    background-image: url(../imagens/photo.jpg);
-    
+    height: 50vh;    
+    background-image: url(../imagens/photo.jpg);   
     
 }
 
@@ -83,7 +84,13 @@ nav{
     background-color: rgb(211, 211, 211);
 }
 footer{
-    background-color: #7a7a88;
+    background-color: #e6e0e0;
     padding: 30px;
-    color: #fff;
+    color: rgb(12, 11, 11);
+}
+.sociais {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+
 }
