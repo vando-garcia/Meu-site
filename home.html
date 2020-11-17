@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/midia.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Meu Site</title>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" defer></script>
 
 </head>
 
@@ -14,7 +17,7 @@
 
     <nav>
         <ul class="topMenu">
-            <a href=""><img class="logo" src="./imagens/LogoSample_ByTailorBrands.jpg">
+            <a href="#" title="Vando Dev.Front"><img class="logo" src="./imagens/LogoSample_ByTailorBrands.jpg">
                 <li></li>
             </a>
             <a href="#section">
@@ -23,7 +26,7 @@
             <a href="#projetos">
                 <li>Projetos</li>
             </a>
-            <a href="">
+            <a href="#contato">
                 <li>Contato</li>
             </a>
         </ul>
@@ -56,8 +59,6 @@
                         </li><br>
                         <li> HTML</li>
                         <li> CSS</li>
-
-
                     </ul>
                 </td>
             </tr>
@@ -68,7 +69,9 @@
     <div id="projetos" class="section3 centralize">
         <table>
             <tr>
-                <td style="width:60%;text-align: left">
+                <td style="width:40%"> <a href="index2.html"><img class="imagemProjeto"
+                    src="./imagens/photo-1516321318423-f06f85e504b3.jpg" alt=""></td></a>
+                    <td style="width:60%;text-align: left">
                     <ul>
                         <br>
                         Projeto 2
@@ -80,12 +83,8 @@
                         <li>HTML</li><br>
                         <li>JAVASCRIPT </li><br>
                         <li>BOODSTRAP</li><br>
-
-
                     </ul>
                 </td>
-                <td style="width:40%"> <a href="index2.html"><img class="imagemProjeto"
-                            src="./imagens/photo-1516321318423-f06f85e504b3.jpg" alt=""></td></a>
             </tr>
         </table>
     </div>
@@ -117,7 +116,7 @@
 
 
     <footer  class="centralize">
-        <section>
+        <section id="contato">
             <img class="logo" src="./imagens/LogoSample_ByTailorBrands1.jpg" alt="">
             <br>
             <p>
@@ -128,19 +127,35 @@
                 <br>
                 Telefone (21) 98227-5868
             </p>
-
-            <ul class="centralize sociais">
-                <li>
-                    <a href="">
-                        <img src="img/footer-icone-facebook.svg" alt="Facebook">
-                    </a>
-                </li>
-               
-                <li>
-                    <a href="">
-                        <img src="img/footer-icone-instagram.svg" alt="Instagram"></a>
-                </li>
-            </ul>
+            <div class="main">
+                <div class="box">
+                    <input type="checkbox" name= "" id="checkbox" />
+                    <div class="menus">
+                        <a href="#">
+                            <div class="menuItens">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="menuItens">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="menuItens">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="menuItens">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+           
         </section>
       
        

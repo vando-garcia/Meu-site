@@ -56,21 +56,20 @@ nav{
 .section1{
     display:flex ;
     height: 50vh;    
-    background-image: url(../imagens/photo.jpg);   
+    background-image: url(../imagens/photo.jpg);     
     
 }
 
 .centralize{
+    display: block;
     margin: auto;
     text-align: center;
 }
 .imagemProjeto{
     width: 25vh;
-    height: 25vh;
-    padding-left: 100px;
-    border-radius: 3rem;
-    
-    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    height: 25vh;  
+    border-radius: 3rem;    
+    box-shadow: 0 .1rem .8rem rgba(241, 0, 0, 0.4);
     cursor: pointer;
 }
 .section2{
@@ -87,10 +86,4 @@ footer{
     background-color: #e6e0e0;
     padding: 30px;
     color: rgb(12, 11, 11);
-}
-.sociais {
-    list-style: none;
-    display: flex;
-    padding: 10px;
-
 }
